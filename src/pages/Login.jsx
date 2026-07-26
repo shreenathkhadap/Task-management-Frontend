@@ -48,7 +48,14 @@ function Login() {
         onSubmit={handleLogin}
         className="bg-white p-8 rounded-xl shadow-lg w-96"
       >
-        <h1 className="text-3xl font-bold mb-6">Login</h1>
+        <h1 className="text-3xl font-bold mb-2">Login</h1>
+
+<p className="text-sm text-gray-500 mb-6">
+  Demo Credentials: <br />
+  <span className="font-medium">Email:</span> shree@gmail.com <br />
+  <span className="font-medium">Password:</span> 123456
+</p>
+       
 
         <input
           type="email"
